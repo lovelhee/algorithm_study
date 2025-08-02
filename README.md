@@ -1,4 +1,4 @@
-# ==============알고리즘 방법================
+# 알고리즘 방법
 1. 날짜 별로 폴더 만들기
 2. 클래스 이름은 Main으로 자바 파일 만들기
 3. 맨위에 자신이 푼문제 URL  주석처리해서 붙혀넣기
@@ -6,7 +6,7 @@
 
 
 
-# =========command로 git push하는법==========
+# command로 git push하는법
 터미널에서 입력
 1. git branch 자기이름                             // 자기이름으로 branch 만들기
 2. git checkout  자기이름(branch 이름)      // 만든 branch로 이동
@@ -21,5 +21,5 @@ ex)
 4. git commit -m "쉽다"
 5. git push orign junyong
 
-# ================command로 git pull 하는법 
+# command로 git pull 하는법 
 git pull origin main     // 메인(branch이름)으로 부터 수정된 내용 받아오기
