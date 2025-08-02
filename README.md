@@ -15,11 +15,11 @@
 5. git push origin 자기이름(branch 이름)  //  업데이트한 내용을 자신의 branch에 푸쉬
 
 ex)
-git branch junyong
-git checkout junyong
-git add .
-git commit -m "쉽다"
-git push orign junyong
+1. git branch junyong
+2. git checkout junyong
+3. git add .
+4. git commit -m "쉽다"
+5. git push orign junyong
 
 # ================command로 git pull 하는법 
 git pull origin main     // 메인(branch이름)으로 부터 수정된 내용 받아오기
