@@ -2,6 +2,7 @@
 // 제목 : 잃어버린 괄호 1541
 // 알고리즘 : 그리디 알고리즘
 // 난이도 : 실버2
+// 진짜진짜진짜 내꼬
 
 import java.util.*;
 public class Main {
