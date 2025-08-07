@@ -1,3 +1,6 @@
+//https://www.acmicpc.net/problem/14501
+// 이전값이랑 비교하고 또한 상담 걸리는 시간을 인덱스에다가 추가로 줘서 그 배열에 값을 넣어줬다.
+
 import java.util.*;
 
 public class Main {
