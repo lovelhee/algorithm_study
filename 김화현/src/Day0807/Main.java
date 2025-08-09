@@ -1,14 +1,15 @@
-package 김화현;
+package Day0807;
+
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-class Main {
+public class Main {
 	
 	//첫번째 두번째 등 안고를 수 있다 즉 부분 수열
 	//따라서 전부 고려하는 dp나 이진 탐색
 	
-	public static void main(String[] args) {
+	public static void main(String[] args){
 		
 		Scanner sc = new Scanner(System.in);
 		
