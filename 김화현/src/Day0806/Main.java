@@ -1,8 +1,9 @@
-package 김화현;
+package Day0806;
+
 
 import java.util.Scanner;
 
-public class main {
+public class Main {
 	static int N;
 	static int [] T,P;//T와 P는 열이다라고 자료형만 알려
 	static int [] memo; //DP에서 중요한 memo, 연산 줄임!
