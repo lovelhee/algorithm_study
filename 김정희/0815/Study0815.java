@@ -88,8 +88,9 @@ public class Study0815 {
 	    int[] dy = {-1, 1, 0, 0};
 	    int[] dx = {0, 0, -1, 1};
 
+	    // 주변에 익은 토마토 없을 때까지 반복
 	    while (!q.isEmpty()) {
-	        int[] now = q.poll();   // 하나 꺼내기
+	        int[] now = q.poll();   // 하나 꺼내기(=오늘 다른 애들을 익게 만들 토마토)
 	        int y = now[0];
 	        int x = now[1];
 
@@ -108,6 +109,7 @@ public class Study0815 {
 	        }
 	    }
 
+	    // 토마토 다 익어서 검사함
 	    int maxDay = 1;
 	    for (int i = 0; i < n; i++) {
 	        for (int j = 0; j < m; j++) {
