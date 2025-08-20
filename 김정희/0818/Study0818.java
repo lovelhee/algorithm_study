@@ -50,6 +50,12 @@ public class Study0818 {
 			return;
 		}
 		
+		// 현재 행의 원본 상태 미리 저장
+		int[] originalRow = new int[w];
+	    for(int i=0; i<w; i++) {
+	        originalRow[i] = film[hang][i];
+	    }
+		
 		// 약물 X
 		dfs(hang+1, drug, d, w, film, k);
 		
@@ -65,6 +71,10 @@ public class Study0818 {
 		}
 		dfs(hang+1, drug+1, d, w, film, k);
 
+		// 원본 상태로 복구
+		for(int i=0; i<w; i++) {
+	        film[hang][i] = originalRow[i];
+	    }
 	}
 
 	// 성능 검사
