@@ -1,3 +1,5 @@
+package Day0820;
+
 import java.util.Scanner;
 
 public class Main {
@@ -48,8 +50,6 @@ public class Main {
 			robot[0]=true;
 			durability[0]--;
 		}
-	
-		
 		//4번 종료 조건 확인 
 		//내구도 0인 칸 개수 세기 
 		int zerocount=0;
