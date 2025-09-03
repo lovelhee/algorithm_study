@@ -44,7 +44,6 @@ public class Main {
 				}
 			}
 		}
-		
 		System.out.println(sum[N-1][M-1]);
 	}
 }
