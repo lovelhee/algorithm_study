@@ -9,10 +9,6 @@ public class Main {
     static int[][] map;
 
     public static void main(String[] args) {
-        new Main().solution();
-    }
-
-    public void solution() {
         Scanner scanner = new Scanner(System.in);
 
         int r = scanner.nextInt();
