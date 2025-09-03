@@ -8,9 +8,9 @@ public class Main {
 
 		String input = bReader.readLine();
 		
-		int result = 0;
-		String number = "";
-		char cal = '+'; 
+		int result = 0;			// 결과 
+		String number = "";		// 숫자 만들기
+		char cal = '+'; 		// 지금 뭐할 거야
 
 		for (int i = 0; i < input.length(); i++) {
 			char ch = input.charAt(i);
