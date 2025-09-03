@@ -63,5 +63,6 @@ public class Main {
             case 3: bx = x; by = y + 1; break; 
         }
         DFS(bx, by, d);
+        
     }
 }
