@@ -49,7 +49,7 @@ public class 스카이캐슬디펜스 {
 
             // 각 궁수의 공격
             for (int a : goong) {
-                int[] enemy = find(copy, a, N - turn); // 궁수 행 = N-turn
+                int[] enemy = find(copy, a, N); // 궁수 행 = N-turn
                 if (enemy != null) {
                     targets.add(enemy[0] + "," + enemy[1]);
                 }
@@ -68,7 +68,7 @@ public class 스카이캐슬디펜스 {
 
             // 적 이동 (맨 아랫줄 적은 성으로 들어감)
             for (int i = N - 1; i > 0; i--) {
-                copy[i] = copy[i - 1];
+                copy[i] = copy[i - 1].clone(); //얕은 복사로 옮겨서 같은 객체 참조를 하게 된다
             }
             copy[0] = new int[M]; // 새 줄은 비어 있음
         }
